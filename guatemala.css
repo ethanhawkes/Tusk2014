@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+@-ms-viewport {
+  width: device-width;
+}
+
+body {
+	background: #FFF;
+	background-image:none;
+	color: #000;
+}
+
+.byline {
+font-size: 20px;
+line-height: 40px;
+border-bottom: 2px solid #066;
+
+}
+
+.subhead.jumbotron{
+	background-image: url(guatemala/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #096;
+	background-color: #FFF;
+}
+
+.subhead img {
+	padding-bottom:15px;
+	margin-top:-5px;
+}
+
+.subhead p {
+    margin-bottom: 20px;
+}
+.jumbotron p {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 28px;
+	margin-bottom: 5px;
+	padding-left: 25px;
+	color: #000;
+	text-shadow:none;
+}
+
+
+.nav-tabs.nav-stacked > li > a:hover {
+  background-color: #FFF;
+  color: #066;
+}
+
+.pullquote {
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 30px;
+	border-bottom: solid;
+	border-top: solid;
+	border-width: 1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 10px;
+	text-align: center;
+	border-color:#096;
+	color: #066;
+	font-family: sans-serif;
+}
+h2{
+	font-size:18px;
+	color:#066;
+}
+h3{
+	font-size:16px;
+	color:#096;
+}
+
