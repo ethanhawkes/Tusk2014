@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+@-ms-viewport {
+  width: device-width;
+}
+
+body {
+	background: #c3e8f6;
+	background-image:none;
+	color: #000;
+}
+
+.imp {
+  color: #D31F25;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.full-photo {
+  background-color: #F5A91A;
+}
+
+.subhead.jumbotron{
+	background-image: url(beerrun_img/jumbo.jpg);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #F5A91A;
+	background-color: #FFF038;
+}
+
+.subhead img {
+	padding-bottom:15px;
+	margin-top:-5px;
+}
+
+.subhead p {
+    margin-bottom: 20px;
+}
+.jumbotron p {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 28px;
+	margin-bottom: 5px;
+	padding-left: 25px;
+	color: #000;
+	text-shadow:none;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #F5A91A;
+  color: #FFF;
+}
+
+.nav-tabs.nav-stacked > li > a:hover {
+  background-color: #F5A91A;
+  color: #FFF;
+}
+
+.pullquote {
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 30px;
+	border-bottom: solid;
+	border-top: solid;
+	border-width: 1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 10px;
+	text-align: center;
+	border-color: rgb(211, 31, 37);
+	color: rgb(211, 31, 37);
+	font-family: sans-serif;
+}
+
+
+@media (min-width: 1200px){
+	.subhead.jumbotron{
+		background-position-x: -20px;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 980px){
+	.subhead.jumbotron{
+		background-position-x: -180px;
+	}
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+
+	.subhead.jumbotron{
+		background-position-x: -400px;
+}
+	.rightimage{
+		width: 250px;
+}
+
+}
+@media (max-width: 767px) {
+
+	.subhead.jumbotron{
+	background-position-x: -400px;
+}
+
+	h1, .subhead p {
+	text-align: left;
+}
+
+	h4 {
+	line-height: 30px;
+	margin-top: -15px;
+}
+	.rightimage {
+	float: right;
+	margin-left: 0px;
+}

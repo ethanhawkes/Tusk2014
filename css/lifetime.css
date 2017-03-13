@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+/* CSS Document */
+@-ms-viewport {
+	width:device-width;
+}
+
+body {
+	background:#FFF;
+	background-image:none;
+	color:#000;
+}
+
+.subhead img {
+	padding-bottom:5px;
+	margin-top:-30px;
+	padding-left: 20px;
+	height: 220px;
+}
+
+h5 {
+	color:#D31F25;
+}
+
+.dropdown-menu > li > a:hover {
+	background-color:#D31F25;
+	color:#FFF;
+}
+
+.pullquote p {
+	margin:0;
+	text-align:center;
+}
+
+.subhead.jumbotron {
+	background-image:url(lifetime_img/ring.jpg);
+	background-repeat:no-repeat;
+	background-position:550px;
+	border-bottom-width:3px;
+	border-bottom-style:solid;
+	border-bottom-color:#7D5F67;
+}
+
+.subhead p {
+	margin-bottom:20px;
+	color: rgb(190, 163, 170);
+}
+
+.jumbotron p {
+	font-size:20px;
+	font-weight:300;
+	line-height:28px;
+	margin-bottom:5px;
+	padding-left:25px;
+	margin-top:10px;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #7D5F67;
+}
+
+.nav-tabs.nav-stacked > li > a:hover {
+	background-color:#7D5F67;
+	color:#FFF;
+}
+
+.pullquote {
+	font-size:23px;
+	line-height:30px;
+	border-bottom:solid;
+	border-top:solid;
+	border-width:4px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:10px;
+	text-align:left;
+	border-color:#7D5F67;
+	color:#7D5F67;
+	font-family:verdana;
+	font-weight: bold;
+}
+.slideshow {
+	width: auto;
+	max-height: 482px;
+	height: 482px;
+    margin: 0 auto;
+}
+
+.carousel {
+	margin:0 auto;
+	width: 700px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-style: solid;
+	border-right: none;
+	border-left: none;
+	border-color: #7D5F67;
+	border-width: 4px;
+	border-spacing: 2px;
+}
+
+.pull-right {
+	border: solid;
+	border-color: #7D5F67;
+	margin-top: 5px;
+}
+
+.pull-left {
+	border: solid;
+	border-color: #7D5F67;
+	margin-top: 5px;
+}
+
+@media (min-width: 1200px) {
+	.subhead.jumbotron {
+		background-position-x:750px;
+	}
+	.slideshow {
+		max-height: 599px;
+		height: 599px;
+	}
+	.carousel {
+		width: 870px;
+	}
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	.subhead.jumbotron {
+		background-position-x:400px;
+	}
+	.slideshow {
+		max-height: 370px;
+		height: 370px;
+	}
+	.carousel {
+		width: 538px;
+	}
+	
+	.rightimage {
+		width:260px;
+	}
+}
+
+@media (max-width: 767px) {
+	.subhead.jumbotron {
+		background-position-x:400px;
+	}
+	
+	.rightimage {
+		width:100%;
+	}
+	.subhead img {
+		padding-left: 0px;
+	}
+	.slideshow {
+		max-height: auto;
+		height: auto;
+	}
+	.carousel {
+		width: auto;
+	}
+}

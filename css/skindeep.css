@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/* CSS Document */
+@-ms-viewport {
+	width:device-width;
+}
+
+body {
+	background:#EEE5cd;
+	background-image:none;
+	color:#000;
+}
+
+.subhead img {
+	padding-bottom:15px;
+	margin-top:-5px;
+	padding-left: 23px;
+}
+
+.text {
+	padding-left: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+h5 {
+	color:#D31F25;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.dropdown-menu > li > a:hover {
+	background-color:#D31F25;
+	color:#FFF;
+}
+
+.pullquote p {
+	margin:0;
+	text-align:center;
+}
+
+.subhead.jumbotron {
+	background-image:url(skindeep_img/legs.jpg);
+	background-repeat:no-repeat;
+	background-position:10px;
+	border-bottom-width:3px;
+	border-bottom-style:solid;
+	border-bottom-color:#D31F25;
+}
+
+.subhead p {
+	margin-bottom:20px;
+}
+
+.jumbotron p {
+	font-size:20px;
+	font-weight:300;
+	line-height:28px;
+	margin-bottom:5px;
+	padding-left:25px;
+	margin-top:10px;
+}
+
+.nav-tabs.nav-stacked > li > a:hover {
+	background-color:#D31F25;
+	color:#FFF;
+}
+
+.pullquote {
+	font-size:25px;
+	line-height:30px;
+	border-bottom:solid;
+	border-top:solid;
+	border-width:1px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:10px;
+	text-align:left;
+	border-color:#d31f25;
+	color:#d31f25;
+	font-family:italic;
+}
+
+
+@media (min-width: 1200px) {
+	.subhead.jumbotron {
+		background-position-x:220px;
+	}
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	.subhead.jumbotron {
+		background-position-x:-145px;
+	}
+	
+	.rightimage {
+		width:260px;
+	}
+}
+
+@media (max-width: 767px) {
+	.subhead.jumbotron {
+		background-position-x:-160px;
+	}
+	
+	.rightimage {
+		width:100%;
+	}
+	.subhead img {
+		padding-left: 0px;
+	}
+}

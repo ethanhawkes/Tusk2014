@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/* CSS Document */
+@-ms-viewport {
+	width:device-width;
+}
+
+h3 {
+	font-family:Arial,Helvetica,sans-serif;
+	color:#333;
+	margin-bottom:15px;
+	line-height:40px;
+}
+
+.pull-left {
+	float:left;
+	padding-right:20px;
+}
+
+.pull-right {
+	float:right;
+	padding-left:20px;
+}
+
+.pullquote {
+	border-bottom:medium solid #5e7c88;
+	border-color:#5e7c88;
+	border-top:medium solid #5e7c88;
+	font-size:24px;
+	line-height:40px;
+	margin-bottom:20px;
+	margin-top:20px;
+	padding:10px;
+	text-align:center;
+	font-style:italic;
+	font-family:Georgia,"Times New Roman",Times,serif;
+}
+
+body {
+	background-image:url(../img/paper_fibers.png);
+	background-repeat:repeat;
+	color:#333;
+}
+
+h4 {
+	font-size:17.5px;
+	color:#000;
+}
+
+.subhead.jumbotron {
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+	background-color:#333;
+	background-image:url(fate_img/fate_jumbo.jpg);
+	background-repeat:no-repeat;
+	background-repeat:no-repeat;
+	border-bottom-width:3px;
+	border-bottom-style:solid;
+	border-bottom-color:#5e7c88;
+}
+
+.subhead p {
+	margin-bottom:20px;
+}
+
+.jumbotron p {
+	font-size:20px;
+	font-weight:300;
+	line-height:28px;
+	margin-bottom:5px;
+	padding-left:25px;
+}
+
+.ibr {
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	margin-top:20px;
+	border-top-width:3px;
+	border-top-style:solid;
+	border-top-color:#5e7c88;
+}
+
+.subhead img {
+	margin-top:-5px;
+	padding-bottom:5px;
+}
+
+@media (min-width: 1200px) {
+	.subhead.jumbotron {
+		background-position-x:220px;
+	}
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	.subhead.jumbotron {
+		background-position-x:-145px;
+	}
+	
+	.rightimage {
+		width:260px;
+	}
+}
+
+@media (max-width: 767px) {
+	.subhead.jumbotron {
+		background-position-x:-160px;
+	}
+	
+	.rightimage {
+		width:100%;
+	}
+}

@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+@-ms-viewport {
+  width: device-width;
+}
+body {
+	line-height:23px; 
+	background-image: url("../img/paper_fibers.png");
+	background-repeat: repeat;  
+	
+}
+
+.dropdown-menu > li > a:hover {
+	background-color:#832422;
+	color:#000;
+}
+.subhead.jumbotron {
+    height: 250px;
+}
+.nav-tabs.nav-stacked > li > a:hover {
+	background-color:#313232;
+	color:#fff;
+}
+h3 {
+    color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.carousel-caption p {
+    margin-bottom: 0;
+font-family:Arial, Helvetica, sans-serif;
+}
+.pull-left {
+	float: left; padding-right:20px; padding-bottom:10px;
+}
+.pull-right {
+	float: right; padding-left:20px; padding-bottom:10px;
+}
+.pullquote {
+    border-bottom: medium solid #313232;
+    border-color: #313232;
+    border-top: medium solid #313232;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h4 {color: #832422;  font-size: 24.5px;   line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.subhead.jumbotron{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	background-image: url(vietnam_img/vietnam_jumbo.jpg);
+	background-repeat: no-repeat;
+
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #313232;
+}
+
+
+.subhead p {
+    margin-bottom: 20px;
+}
+.jumbotron p {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 28px;
+	margin-bottom: 5px;
+	padding-left: 25px;
+}
+
+.ibr { 	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-top:20px;
+		border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #313232;
+	
+	}
+
+body {
+    color: #333333;
+}
+
+@media (min-width: 1200px) {
+	.subhead.jumbotron {
+		background-position-x:220px;
+	}
+}
+	
+@media (max-width: 979px) and (min-width: 768px) {
+	.subhead.jumbotron {
+		background-position-x:-240px;
+	}
+
+	.rightimage {
+		width:250px;
+	}
+@media (max-width: 767px) {
+	.subhead.jumbotron {
+		background-position-x:-240px;
+	}
+
+}

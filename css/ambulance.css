@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+@-ms-viewport {
+  width: device-width;
+}
+
+.subhead.jumbotron{
+	background-image: url(ambulance/ambulance_jumbo_2.jpg);
+	background-size: auto;
+	background-repeat:no-repeat;
+	border-bottom-width:3px;
+	border-bottom-style:solid;
+	border-bottom-color:#c1614b;
+	border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+p{
+	color: black;	
+}
+
+.deck{
+	color: black;	
+}
+
+.img_size{
+	width: 500px;
+	height: 331px;
+}
+
+.img_size2{
+	padding-top: 0px;
+	width: 400px;
+	height: 265px;
+}
+
+.img_size3{
+	width: auto;
+	height: 300px;
+}
+
+.img_size4{
+	width: 400px;
+	height: 129px;
+	padding-right: 30px;
+
+}
+
+.img_size5{
+	width: 431px;
+	height: 129px;
+	padding-bottom: 15px;
+}

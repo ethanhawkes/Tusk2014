@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* CSS Document */
+@-ms-viewport {
+	width:device-width;
+}
+
+.container .credit {
+	margin:20px 0;
+	color: #DDD;
+}
+
+body {
+	background:#000;
+	background-image:none;
+}
+
+h3 {
+	font-family:serif;
+	color:#c99b50;
+}
+
+.jumbotron p {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 28px;
+	margin-bottom: 5px;
+	padding-left: 25px;
+	margin-top: 10px;
+}
+
+.subhead.jumbotron {
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+	background-image:url(death_img/ball.jpg);
+	background-repeat:no-repeat;
+	background-position:10px;
+	border-bottom-width:3px;
+	border-bottom-style:solid;
+	border-bottom-color:#b57441;
+}
+
+.jumbotron p {
+	font-size:20px;
+	padding-left:25px;
+}
+
+.foot-link {
+ 	color: #DDD;
+}
+
+a:hover, a:focus {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.subhead img{
+	padding-bottom: 30px;
+	margin-top: 5px;
+	padding-left: 26px;
+}
+
+.nav-tabs.nav-stacked {
+	background-color:rgba(255, 255, 255, 0.1);
+}
+
+.nav-tabs.nav-stacked > li > a {
+  color:#FFF;
+}
+
+.nav-tabs.nav-stacked > li > a:hover {
+  background-color:#b57441;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color:#B57441;
+}
+
+.pullquote {
+	font-size:30px;
+	line-height:40px;
+	border-bottom:solid;
+	border-top:solid;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:10px;
+	text-align:center;
+	border-color:#b57441;
+}
+
+@media (min-width: 1200px) {
+	.subhead.jumbotron {
+		background-position-x:220px;
+	}
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	.subhead.jumbotron {
+		background-position-x:-145px;
+	}
+	
+	.rightimage {
+		width:250px;
+	}
+}
+
+@media (max-width: 767px) {
+	.subhead img {
+		padding-left: 0px;
+	}
+		.subhead.jumbotron {
+		background-position-x:-145px;
+	}
+}

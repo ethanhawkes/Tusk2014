@@ -1,0 +1,132 @@
+@-ms-viewport {
+	width:device-width;
+}
+
+.container .credit {
+	margin:20px 0;
+	color: #DDD;
+}
+
+body {
+	background:#000;
+	color: #DDD
+}
+
+h3 {
+	line-height:35px;
+	padding:20px;
+	padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px #FFF;
+}
+
+.subhead.jumbotron {
+	border-bottom:inset;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+	background-image:url(liberated_img/liberated_jumbo.jpg);
+}
+
+.subhead img {
+	padding-bottom: 20px;
+	margin-top: -5px;
+}
+
+.nav-tabs.nav-stacked {
+  background-color: #DDD;
+}
+
+.nav-tabs.nav-stacked > li > a:hover {
+  background: #000;
+  color: #DDD;
+}
+
+.dropdown-menu > li > a:hover {
+  background: #000;
+}
+
+.final {
+	border-top:dotted;
+	border-top-width:1px;
+	padding-top:10px;
+	padding-bottom:1px;
+}
+
+.jumbotron p {
+	font-size:20px;
+	font-weight:300;
+	line-height:28px;
+	margin-bottom:5px;
+	padding-left:25px;
+}
+
+.pullquote {
+	font-size:30px;
+	line-height:40px;
+	border-bottom:solid;
+	border-top:solid;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:10px;
+	text-align:center;
+}
+
+.rightimage {
+	float:right;
+	margin-left:10px;
+}
+
+.leftimage {
+	float:left;
+	width:400px;
+	margin-right:10px;
+}
+
+.topimage {
+	margin-bottom:15px;
+}
+
+.foot-link {
+  color: #DDD;
+}
+
+@media (min-width: 1200px) {
+	.subhead.jumbotron {
+		background-position-x:220px;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 980px) {
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	.subhead.jumbotron {
+		background-position-x:-120px;
+	}
+	
+	.rightimage {
+		width:250px;
+	}
+	
+	.leftimage {
+		width:250px;
+	}
+}
+
+@media (max-width: 767px) {
+	.subhead.jumbotron {
+		background-position-x:-120px;
+		background-position-y: -25px;
+	}
+	
+	.rightimage {
+		width:250px;
+	}
+	
+	.pullquote {
+		font-size:20px;
+	}
+	.subhead.jumbotron {
+		height: 170px;
+	}
+}

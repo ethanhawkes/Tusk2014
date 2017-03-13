@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+@-ms-viewport {
+  width: device-width;
+}
+
+.subhead.jumbotron{
+	background-image: url(gurajpal/gurajpal_header_2.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	border-bottom-width:3px;
+	border-bottom-style:solid;
+	border-bottom-color:#c1614b;
+	border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.nav-tabs.nav-stacked > li > a:hover {
+background-color: #63a0aa;
+color: #FFF;
+}
+
+.byline {
+	color:rgb(251, 255, 144);
+	border-bottom-color: white 
+}
+
+body{
+	background: #63a0aa;
+}
+
+.body_text{
+	font: Helvetica;
+	color: black;
+}
+
+.body_divider{
+	font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: white;	
+}
+
+.drop_cap{
+float:left;
+color:white;
+font-size:72px;
+line-height:45px;
+padding-top:10px;
+padding-right:3px;
+font-family: Times, serif, Georgia;	
+}
+
+.img_size{
+	padding-top: 40px;
+	max-width: 100%;
+	width: auto;
+	height: auto\9;
+}
+
+.img_size2{
+	padding-top: 0px;
+max-width: 43%;
+	width: auto;
+	height: auto\9;
+}
+
+.img_size3{
+	width: auto;
+	height: 300px;
+}
+
+.img_size4{
+max-width: 40%;
+	width: auto;
+	height: auto\9;
+	padding-right: 30px;
+
+}
+
+.img_size5{
+	max-width: 60%;
+	width: auto;
+	height: auto\9;
+	padding-bottom: 15px;
+}
+
+.deck{
+	font:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: black;
+	font-size: 25px;
+}

@@ -1,0 +1,54 @@
+@charset "utf-8";
+@-ms-viewport {
+  width: device-width;
+}
+
+body {
+	background: #FFF;
+	background-image:none;
+	color: #000;
+}
+
+h2 {
+	font-size: 18px;
+	color: #933;
+}
+
+h3 {
+	font-size:16px;
+	color: #666;
+}
+.byline {
+font-size: 18px;
+line-height: 30px;
+border-bottom: 2px solid #EFEFA0;
+
+}
+.subhead.jumbotron{
+	background-image:url(plastic/PlasticVow_042014-2.jpg);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF6;
+	background-color: #FFC;
+}
+.nav-tabs.nav-stacked > li > a:hover {
+  background-color: #FF9;
+  color: #000;
+}
+.pullquote {
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 30px;
+	border-bottom: solid;
+	border-top: solid;
+	border-width: 1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 10px;
+	text-align: center;
+	border-color: #EFEFA0;
+	color: #3A2E2E;
+	font-family: sans-serif;
+}
